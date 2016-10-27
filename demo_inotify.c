@@ -11,6 +11,7 @@
 #include <sys/inotify.h>
 #include <limits.h>
 #include "tlpi_hdr.h"
+#include "error_functions.c"
 
 static void             /* Display information from inotify_event structure */
 displayInotifyEvent(struct inotify_event *i)
